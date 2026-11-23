@@ -2,20 +2,85 @@
 
 # 🛡️ PCA 0→Hero
 
-**Comprendre le Plan de Continuité d'Activité, l'ISO 22301 et le BIA, en partant de zéro.**
+**Understand Business Continuity (BCP), ISO 22301 and the BIA, starting from zero.**
 
-Cours interactif en français, avec des explications en darija tunisienne, des schémas animés, des quiz corrigés et un examen blanc.
+An interactive course in **English and French**, with notes in Tunisian darija, animated diagrams, corrected quizzes and a mock exam.
 
 ![HTML](https://img.shields.io/badge/HTML-CSS-JS-e34c26?style=flat-square)
-![Dépendances](https://img.shields.io/badge/d%C3%A9pendances-0-2ea44f?style=flat-square)
-![Langues](https://img.shields.io/badge/langues-FR%20%2B%20darija-c2410c?style=flat-square)
-![Statut](https://img.shields.io/badge/usage-%C3%A9ducatif-blue?style=flat-square)
+![Dependencies](https://img.shields.io/badge/dependencies-0-2ea44f?style=flat-square)
+![Languages](https://img.shields.io/badge/languages-EN%20%7C%20FR%20%7C%20darija-c2410c?style=flat-square)
+![Status](https://img.shields.io/badge/use-educational-blue?style=flat-square)
 
-[**Voir le site**](https://pablo-100.github.io/Pca_z2h/) · [Signaler un problème](https://github.com/Pablo-100/Pca_z2h/issues)
+[**Open the site**](https://pablo-100.github.io/Pca_z2h/) · [Report an issue](https://github.com/Pablo-100/Pca_z2h/issues) · [Français ↓](#fr)
 
 </div>
 
 ---
+
+## About
+
+PCA 0→Hero is a study platform for students and professionals discovering **business continuity**: BCP (called *PCA* in French), DRP, crisis management, the **ISO 22301:2019** standard, the **BIA** and the **MTPD / RTO / RPO / MBCO** indicators.
+
+The idea: explain first with simple words and diagrams, then give the exact vocabulary. Each module opens with a short story in Tunisian darija (optional, hidden by default in English).
+
+## Features
+
+| | |
+|---|---|
+| 📚 **14 modules** | A 3-session course, from the "why" to the mini-project |
+| 📊 **About fifteen interactive diagrams** | Incident timeline (RPO, RTO, MTPD), BCMS architecture, 3-2-1 backup rule, replication, risk matrix, roadmap… with an *Enlarge* button |
+| 🌍 **English / French switch** | Language button in the top bar: the whole course, diagrams and quizzes exist in both languages |
+| 🗣️ **Darija built in** | Short stories, a *Darija 101* page, can be shown or hidden |
+| ✅ **Corrected quizzes** | More than 60 questions with explanations, progress is saved |
+| 🧪 **Practical tools** | MTPD / RTO / RPO simulator, BIA builder, consistency checker for the mini-project |
+| 🔎 **Revision aids** | Glossary, summary sheet, flashcards, mock exam, full-text search |
+| 🌗 **Comfortable reading** | Light and dark theme, page outline, progress bar, mobile friendly |
+
+## Course outline
+
+1. **Session 1, Introduction**: why a BCP, core concepts, BCP / DRP / crisis, threats and benefits, ISO 22301 overview
+2. **Session 2, Standard and framework**: standard vs legislation vs regulatory supervision, clauses 4 to 10, BCMS, GDPR / DORA / NIS2, the 10 phases of a compliance project
+3. **Session 3, BIA and solutions**: BIA, MTPD, RTO, RPO, MBCO, continuity architectures
+4. **Practice**: worked case studies (including the 2021 OVHcloud fire in Strasbourg), BioDistrib mini-project
+
+> Terminology: the course material is French. In the English edition PCA is written **BCP**, PRA **DRP** and SMCA **BCMS**; the French acronyms are given where they first appear.
+
+## Usage
+
+No installation: it is a single self-contained HTML page.
+
+```bash
+git clone https://github.com/Pablo-100/Pca_z2h.git
+cd Pca_z2h
+# just open index.html in your browser (add ?lang=en to force English)
+```
+
+Progress, theme and language are stored in the browser (`localStorage`). Nothing is sent to a server.
+
+**GitHub Pages:** *Settings → Pages → Deploy from a branch → `main` / `(root)`*
+
+## Disclaimer
+
+- Unofficial study tool, not affiliated with ISO or any standards body. For the exact text of the standard, consult the official copy of ISO 22301:2019.
+- Passages about the standard are **reworded**. No brand logo is reproduced.
+- The *Continuity architectures* module is a teaching supplement: costs and times are orders of magnitude, not normative values.
+- The mini-project gives a method and helper tools. It does not replace your own work.
+
+## Author
+
+Made by **[Pablo-100](https://github.com/Pablo-100)**. If this project helps you study, please give it a ⭐.
+
+---
+
+<a id="fr"></a>
+
+<div align="center">
+
+# 🛡️ PCA 0→Hero (Français)
+
+**Comprendre le Plan de Continuité d'Activité, l'ISO 22301 et le BIA, en partant de zéro.**
+
+</div>
 
 ## À propos
 
@@ -29,6 +94,7 @@ L'idée : expliquer d'abord avec des mots simples et des schémas, puis donner l
 |---|---|
 | 📚 **14 modules** | Parcours en 3 séances, du « pourquoi » au mini-projet |
 | 📊 **Une quinzaine de schémas interactifs** | Chronologie d'un incident (RPO, RTO, MTPD), architecture d'un SMCA, règle de sauvegarde 3-2-1, réplication, matrice de risques, feuille de route… avec bouton *Agrandir* |
+| 🌍 **Bilingue FR / EN** | Bouton de langue dans la barre du haut : tout le cours, les schémas et les quiz existent en français et en anglais |
 | 🗣️ **Darija intégrée** | Histoires courtes, page *Darija 101* (vocabulaire, erreurs fréquentes), affichage activable ou masquable |
 | ✅ **Quiz corrigés** | Plus de 60 questions avec explications, sauvegarde de la progression |
 | 🧪 **Outils pratiques** | Simulateur MTPD / RTO / RPO, constructeur de BIA, vérificateur de cohérence pour le mini-projet |
